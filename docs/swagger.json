@@ -1,0 +1,16 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "User Management",
+    "version": "1.0.0",
+    "description": "TypeScript, Docker and APIs study project "
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000/"
+    }
+  ],
+  "paths": {
+    
+  }
+}
