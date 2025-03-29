@@ -15,8 +15,4 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(apiDocs));
 app.use(router);
 
-app.get("/", (_req, res) => {
-	res.send("Hello World!");
-});
-
 export default app;
