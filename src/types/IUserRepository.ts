@@ -6,7 +6,7 @@ export interface UserInterface {
 }
 
 export interface UserReturnInterface {
-	id: number, 
+	id: number,
 	firstName: string,
 	lastName: string,
 	email: string,

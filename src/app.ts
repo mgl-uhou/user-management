@@ -1,5 +1,5 @@
 import express from "express";
-import cors from "cors"
+import cors from "cors";
 import swaggerUI from "swagger-ui-express";
 import apiDocs from "../docs/swagger.json";
 import router from "./routes";
@@ -16,7 +16,7 @@ app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(apiDocs));
 app.use(router);
 
 app.get("/", (_req, res) => {
-	res.send("Hello World!");
-})
+  res.send("Hello World!");
+});
 
 export default app;
